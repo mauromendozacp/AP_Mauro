@@ -1,0 +1,41 @@
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(224, 210, 181);
+  display: block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+a:hover {
+  background-color: rgb(223,141,122);
+  color: #fff;
+}
+a:after {
+  content: "→";
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  color: white;
+}
+a:hover:after {
+  content: "→";
+  position: absolute;
+  right: 10px;
+  opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>CV Mauro Mendoza</title>
+	<meta charset="utf-8">
+	<link href="cv-icon.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather+Sans|Crimson+Text|Pacifico|Caveat+Brush|Ravi+Prakash" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/unslider.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/unslider.js"></script>
+</head>
+<body>
+	<section id="contenido">
+		<section id="info-izq">
+			<div id="mi-foto"><img id="foto" src="images/foto.jpg"></div>
+			<div id="navegacion">
+				<nav id="botonera">
+					<ul class="list1">
+						<a href="#datos-personales"><li><span class="link-info">Datos Personales</span></li></a>
+						<a href="#formacion"><li><span class="link-info">Formacion</span></li></a>
+						<a href="#conocimiento"><li><span class="link-info">Conocimiento</span></li></a>
+						<a href="#hobbies"><li><span class="link-info">Hobbies</span></li></a>
+						<a href="#portfolio"><li><span class="link-info">Portfolio</span></li></a>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<section id="info-der">
+			<div id="datos-personales" class="sec-info">
+				<h3 class="desc-info">Datos Personales</h3>
+				<h1 id="nomb">Mauro Leonel Mendoza</h1>
+				<div id="info-dp">
+					<ul>
+						<li><span>DNI</span>: 41560319</li>
+						<li><span>Edad</span>: 18</li>
+						<li><span>Fecha de Nacimiento</span>: 02/08/1998</li>
+						<li><span>Estado Civil</span>: Soltero</li>
+						<li><span>Domicilio</span>: Culpina 3257, Villa Soldati, C.A.B.A</li>
+						<li><span>Nacionalidad</span>: Argentina</li>
+						<li><span>Telefono / Celular</span>: (011)49196358 / (011)56932878</li>
+						<li><span>E-mail</span>: mauro.mendozacp@gmail.com</li>
+					</ul>
+					<p><span>Programador</span>: La programación es una realidad que va junto mi vida. Soy una persona capacitada para poder proyectar, producir, resolver, adaptar y mantener aplicaciones informáticas y me gusta crear y gestionar contenidos de forma creativa. También como las nuevas tecnologías, tomar parte activa en las redes sociales y acudir a cursos y charlas. Además, tengo una gran motivación por participar en el desarrollo de estrategias y en los procesos orientados a conseguir objetivos.</p>
+				</div>
+			</div>
+			<div id="formacion" class="sec-info">
+				<h3 class="desc-info">Formacion</h3>
+				<h4>Primaria</h4>
+				<ul>
+					<li>
+						<p><span>Instituto</span>: Nuestra Señora de las Gracias</p>
+						<p><span>Ingreso/Egreso</span>: 2005/2011</p>
+					</li>
+				</ul>
+				<h4>Secundaria</h4>
+				<ul>
+					<li>
+						<p><span>Instituto</span>: Escuela Tecnica N°1 Otto Krause</p>
+						<p><span>Especialidad</span>: Computacion</p>
+						<p><span>Estado</span>: En curso</p>
+						<p><span>Ingreso/Egreso</span>: 2012/2017</p>
+					</li>
+				</ul>
+			</div>
+			<div id="conocimiento" class="sec-info">
+				<h3 class="desc-info">Conocimientos</h3>
+				<ul class="list1">
+					<li><span>Microsoft Office</span>: Dominio Word, Excel, PowerPoint</li>
+					<li><span>Visual Studio</span>: Dominio C, C++, C#. Nivel intermedio .NET </li>
+					<li><span>Eclipse</span>: Nivel intermedio Java </li>
+					<li><span>Sublime Text</span>: Dominio HTML5. Nivel intermedio CSS3, JavaScript </li>
+					<li><span>MySQL Workbench</span>: Dominio SQL </li>
+					<li><span>Adobe</span>: Nivel intermedio Flash, Photoshop </li>
+					<li><span>Idioma</span>: Nivel Intermedio Ingles</li>
+				</ul>
+			</div>
+			<div id="hobbies" class="sec-info">
+				<h3 class="desc-info">Hobbies</h3>
+				<div id="hob-info">
+					<ul class="list1">
+						<li>
+							<img class="img-hob" src="images/programacion.jpg">
+							<p>Programación</p>
+						</li>
+						<li>
+							<img class="img-hob" src="images/VD.png">
+							<p>Desarrollo de Videojuegos</p>
+						</li>
+						<li>
+							<img class="img-hob" src="images/voley.jpg">
+							<p>Voley</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="portfolio" class="sec-info">
+				<h3 class="desc-info">Portfolio</h3>
+				<div class="slider">
+					<h2>Proyectos</h2>
+					<ul>
+						<li>Recetas</li>
+						<li>CV</li>
+					</ul>
+				</div>
+				<script>
+					$('.slider').unslider({
+							arrows: false,
+							autoplay: true
+						});
+				</script>
+			</div>
+		</section>
+	</section>
+</body>
+</html>
